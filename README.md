@@ -13,7 +13,7 @@ The goal is to address the real-world challenge of pharmaceutical pill recogniti
 
 **Chloe Chan:**
 - Designed and implemented the Siamese neural network architecture
-- Built the end-to-end training pipeline in `one_shot_siamese_network.ipynb`
+- Built the end-to-end training pipeline in [`one_shot_siamese_network.ipynb`](one_shot_siamese_network.ipynb)
 - Implemented data preprocessing and augmentation
 - Authored README.md and Dataset_README.md
 
