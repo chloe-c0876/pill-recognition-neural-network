@@ -4,9 +4,9 @@
 
 This is a personal side project I worked on alongside a USC mentor, with the intention of further exploring my passion for healthcare data science.
 
-The goal is to address the real-world challenge of pharmaceutical pill recognition, which involves fine-grained visual differences and limited labeled training data. The project demonstrates end-to-end machine learning engineering, from exploring real-world requirements to building the training pipeline and deploying a functional API for pill comparison.
+The goal is to address the real-world challenge of pharmaceutical pill recognition, which involves fine-grained visual differences and limited labeled training data. This project implements a **Siamese neural network for one-shot-style pill classification using the ePillID benchmark dataset.** The model learns to compare pill images by mapping them into an embedding space where visually similar pills are closer together and dissimilar pills are further apart, enabling comparison-based identification.
 
-This project implements a **Siamese neural network for one-shot-style pill classification using the ePillID benchmark dataset.** The model learns to compare pill images by mapping them into an embedding space where visually similar pills are closer together and dissimilar pills are further apart, enabling comparison-based identification.
+The project demonstrates end-to-end machine learning engineering, from exploring real-world requirements to building the training pipeline and deploying a functional API for pill comparison.
 
 ## Key Contributions
 
