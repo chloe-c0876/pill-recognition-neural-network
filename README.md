@@ -2,22 +2,18 @@
 
 ## Overview
 
-This is a volunteer project I worked on in collaboration with Kaiser Permanente, under the mentorship of a senior leader specializing in AI. (This is an exploratory side project intended only for research and engineering learning purposes.)
-
-This project implements a **Siamese neural network for one-shot-style pill classification using the ePillID benchmark dataset.** The model learns to compare pill images by mapping them into an embedding space where visually similar pills are closer together and dissimilar pills are further apart, enabling comparison-based identification.
+This is a personal side project I worked on alongside a USC mentor, with the intention of further exploring my passion for healthcare data science.
 
 The goal is to address the real-world challenge of pharmaceutical pill recognition, which involves fine-grained visual differences and limited labeled training data. The project demonstrates end-to-end machine learning engineering, from exploring real-world requirements to building the training pipeline and deploying a functional API for pill comparison.
 
+This project implements a **Siamese neural network for one-shot-style pill classification using the ePillID benchmark dataset.** The model learns to compare pill images by mapping them into an embedding space where visually similar pills are closer together and dissimilar pills are further apart, enabling comparison-based identification.
 
 ## Key Contributions
 
-**Chloe Chan:**
 - Designed and implemented the Siamese neural network architecture
 - Built the end-to-end training pipeline in [`one_shot_siamese_network.ipynb`](one_shot_siamese_network.ipynb)
 - Implemented data preprocessing and augmentation
 - Authored README.md and Dataset_README.md
-
-**Kaiser Mentor:**
 - Developed reusable utilities and configuration management in `utils.py`
 - Implemented the Flask REST API (`app.py`) for inference
 - Built evaluation workflows including threshold optimization and ROC analysis
